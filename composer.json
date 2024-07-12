@@ -1,0 +1,21 @@
+{
+    "name": "ajrockr/lfw",
+    "description": "A light framework",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "11.3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ajrockr\\Lfw\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ajrockr",
+            "email": "anjorizz@gmail.com"
+        }
+    ],
+    "require": {}
+}

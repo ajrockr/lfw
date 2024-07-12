@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ajrockr\\Lfw\\": "src/"
+            "Ajrockr\\Lfw\\": "src/",
+            "Ajrockr\\Lfw\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -15,9 +16,11 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "symfony/var-dumper": "^7.1"
     },
     "require": {
+        "php": "^8.0",
         "ajrockr/pdodbm": "^1.0"
     }
 }
